@@ -10,7 +10,7 @@ int main(int argc, char **argv)
 	int ret;
 
 	fd = open("text.txt", O_RDONLY);
-	fd1 = open("text2.txt", O_RDONLY);
+	fd1 = open("text1.txt", O_RDONLY);
 	if (argc == 2)
 	{
 		if (argv[1][0] == '0') //cat get_next_line.c | ./a.out 0
